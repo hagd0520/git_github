@@ -34,3 +34,12 @@ git log --graph
 
 # main브랜치 뿐만 아니라 모든 branch commit 이력 조회
 git log --all
+
+# 충돌무시하고 강제 push할때
+git push -f origin main
+
+# 특정 commit Id로의 전환(소스코드를 과거의 특정 버전으로 되돌릴 때)
+git checkout 커밋Id
+
+# 다시 현재의 브랜치의 commit 되돌아올 때
+git checkout 현재브랜치명(main)
