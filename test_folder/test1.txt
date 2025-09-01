@@ -1,8 +1,10 @@
 hello world1
 hello world2
 hello world3
+hello world javascript
 hello world4
 hello world5
+hello world javascript
 hello world10
 hello world python
 hello world C++
@@ -10,6 +12,7 @@ hello world javascript
 hello ha
 hello world spring
 hello world spring2
+hello world javascript
 hello world java3
 hello world python3
 hello world c
