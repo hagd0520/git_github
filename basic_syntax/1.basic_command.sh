@@ -60,3 +60,15 @@ git stash
 
 # 저장한 최신의 작업목록을 꺼내기
 git stash pop
+
+# 임시저장한 목록은 그대로 놔둔채 특정 index항목 적용
+git stash apply 인덱스번호
+
+# 임시저장한 작업목록 내용 조회
+git stash show -p 인덱스번호
+
+# 임시저장한 작업목록 조회
+git stash list
+
+# 저장목록 모두 삭제
+git stash clear
